@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  }
+
+body, .main{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    position: relative;
+    background: #f2f4f7;
+
+}
+.logo{
+    position: absolute;
+    top: 175px;
+    left: 202px;
+}
+
+
+.login1{
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: left;
+   
+}
+img{
+    height: 106px;
+
+ }
+.logo p{
+    font-size: 28px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+  margin-left: 28px;
+  margin-top: -10px;
+}
+
+.login2{
+    width: 42%;
+    
+}
+.login2 .login_card{
+display: flex;
+flex-direction: column;
+background-color:  #fff;;
+position: absolute;
+top: 133px;
+height: 348px;
+  width: 398.1px;
+padding: 15px 0px ;
+align-items: center;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+border-radius: 8px;
+margin-left: 2px;
+
+}
+.login_card input{
+    padding: 17px 10px;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+    margin-bottom: 10px;
+    width: 367px;
+    font-size: 17px;
+    color: #1d2129;
+}
+
+.login_card .btn2{
+    border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  background-color: #42b72a;
+  width: 200px;
+  color: white;
+font-weight: bold;
+
+
+}
+.login_card .btn{
+background-color: #0866ff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  color: white;
+  width: 367px;
+  font-weight: bold;
+
+}
+.login_card a{
+    font-size: 14px;
+    padding: 13px 0;
+    text-decoration: none;
+
+}
+
+hr.divider {
+    width: 90%; 
+    border: 1px solid  #dddfe2; 
+    margin: 18px 0; 
+    opacity: .7;
+
+  }
+  .login_card p{
+    position: absolute;
+    top: 370px;
+    font-size: 14px;
+  }
